@@ -1,0 +1,74 @@
+<html>
+<head><meta name="viewport"content="width=device-width,initial-scale=1,maximum-scale=1"/>
+<style>
+/* Default styles */
+
+
+body {
+    background-image: url('./croppedimages/wallpaperflare.com_wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button {
+    font-size: 20px;
+    border-radius: 10px;
+    background: blue;
+    color: white;
+    position: relative; /* Fixed positioning for button */
+    top: 200px;
+    left: 250px;
+}
+
+button:hover {
+    background: linear-gradient(90deg, black, #2196f3);
+}
+
+/* Media query for screen sizes up to 600px */
+@media only screen and (max-width: 600px) {
+    button {
+        position:relative;
+        top: 250px;
+        left: 120px;
+    }
+}
+</style>
+<script>
+//jsssss code for redirectingg 
+function reg()
+{
+event.preventDefault();
+window.location="register.php";
+}
+function log()
+{
+event.preventDefault();
+window.location="login.php";
+}
+
+</script>
+
+</head>
+<body>
+
+<form action="" method="post">
+<button  name='log_button' onclick='log()'>login </button>
+<button name="reg_button" onclick="reg()"> register</button>
+
+
+
+</form>
+</body>
+</html>
+<!-- php code for redirectingg -->
+<?php
+/*if(isset($_POST['reg_button']))
+{ 
+header("location:register.php");
+}
+elseif(isset($_POST['log_button']))
+{
+header("location:login.php");
+
+}*/
+?>

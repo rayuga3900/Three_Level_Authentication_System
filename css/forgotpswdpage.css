@@ -1,0 +1,90 @@
+body {
+background-image:url('../croppedimages/wallpaperflare.com_wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    border: 2px double red;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    position: fixed;
+    top: 100px;
+    left: 500px;
+    height: 230px;
+    width: 210px;
+}
+
+#l1 {
+    position: fixed;
+    top: 325px;
+    left: 495px;
+    width: 250px;
+}
+
+div {
+    position: fixed;
+    top: 350px;
+    left: 500px;
+}
+
+button {
+    font-size: 20px;
+    border-radius: 10px;
+    background: blue;
+    color: white;
+}
+
+button:hover {
+    background: linear-gradient(90deg, black, #2196f3);
+}
+@media only screen and (max-width: 600px) {
+body {
+background-image:url('../croppedimages/wallpaperflare.com_wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    border: 2px double red;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    position: fixed;
+    top: 50px;
+    left: 20px;
+    height: 230px;
+    width: 210px;
+}
+
+#l1 {
+    position: fixed;
+    top: 60px;
+    left: 50px;
+    width: 250px;
+}
+
+div {
+    position: fixed;
+    top: 100px;
+    left: 50px;
+}
+
+button {
+    font-size: 20px;
+    border-radius: 10px;
+    background: blue;
+    color: white;
+}
+
+button:hover {
+    background: linear-gradient(90deg, black, #2196f3);
+}
+}

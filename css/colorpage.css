@@ -1,0 +1,227 @@
+body
+{
+background-image:url('../croppedimages/wallpaperflare.com_wallpaper.jpg');
+background-repeat:no-repeat;
+background-size:cover;
+}
+#red/*red button style*/
+{
+background:red;
+display:block;
+height:60px;
+width:60px;
+position:fixed;
+top:100px;
+left:310px;
+cursor:pointer;
+
+}
+header/*header has login written*/
+{
+color:white;
+position:fixed;
+top:20px;
+left:300px;
+font-size:24px;
+}
+
+#blue /*blue button style*/
+{
+background:blue;
+display:block;
+height:60px;
+width:60px;
+position:fixed;
+left:440px;
+top:100px;
+cursor:pointer;
+
+}
+#num /*input field where password is set when you click the color buttons*/
+{
+position:fixed;
+left:320px;
+top:240px;
+padding:10px;
+width:290px;
+}
+#green /*green button style*/
+{
+cursor:pointer;
+display:block;
+height:60px;
+width:60px;
+background:green;
+position:fixed;
+left:570px;
+top:100px;
+
+}
+#save
+{
+position:fixed;
+top:350px;
+width:300px;
+left:320px;
+font-size:20px;
+border-radius:10px;
+background:blue;
+color:white;
+
+}
+#reset
+{
+font-size:20px;
+border-radius:10px;
+background:blue;
+color:white;
+position:fixed;
+top:290px;
+width:80px;
+}
+form
+{
+background:white;
+padding:20px;
+border:2px double red;
+display:flex;
+flex-direction:column;
+align-content:center;
+text-align:center;
+position:fixed;
+top:70px;
+left:300px;
+height:300px;
+width:300px;
+}
+b{
+position:fixed;
+top:200px;
+}
+#l1 /*label where error or validation message is being displayed*/
+{
+    position:fixed;
+    top:380px;
+    left:370px;
+  font-size:20px;
+   
+}
+button:hover,#reset:hover,#save:hover
+{
+ 
+background:linear-gradient(90deg,black,#2196f3);
+}
+
+@media only screen and (max-width: 600px) {
+
+    body
+{
+background-image:url('../croppedimages/wallpaperflare.com_wallpaper.jpg');
+background-repeat:no-repeat;
+background-size:cover;
+}
+#red/*red button style*/
+{
+background:red;
+display:block;
+height:60px;
+width:60px;
+position:fixed;
+top:50px;
+left:20px;
+cursor:pointer;
+
+}
+header/*header has login written*/
+{
+color:white;
+position:fixed;
+top:10px;
+left:10px;
+font-size:24px;
+}
+
+#blue /*blue button style*/
+{
+background:blue;
+display:block;
+height:60px;
+width:60px;
+position:fixed;
+left:120px;
+top:50px;
+cursor:pointer;
+
+}
+#num /*input field where password is set when you click the color buttons*/
+{
+position:fixed;
+left:20px;
+top:240px;
+padding:10px;
+width:290px;
+}
+#green /*green button style*/
+{
+cursor:pointer;
+display:block;
+height:60px;
+width:60px;
+background:green;
+position:fixed;
+left:220px;
+top:50px;
+
+}
+#save
+{
+position:fixed;
+top:300px;
+width:300px;
+left:20px;
+font-size:20px;
+border-radius:10px;
+background:blue;
+color:white;
+
+}
+#reset
+{
+font-size:20px;
+border-radius:10px;
+background:blue;
+color:white;
+position:fixed;
+left:20px;
+top:130px;
+
+width:80px;
+}
+form
+{
+background:white;
+padding:20px;
+border:2px double red;
+display:flex;
+flex-direction:column;
+align-content:center;
+text-align:center;
+position:fixed;
+top:10px;
+left:10px;
+height:300px;
+width:300px;
+}
+b{
+position:fixed;
+top:180px;
+}
+#l1 /*label where error or validation message is being displayed*/
+{
+    position:fixed;
+    top:300px;
+    left:15px;
+  font-size:20px;
+   
+}
+}
